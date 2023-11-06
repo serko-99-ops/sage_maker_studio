@@ -4,6 +4,7 @@ pipeline {
     stage('first stage') {
       steps {
         sh 'whoami'
+        echo 'hello world'
       }
     }
 
